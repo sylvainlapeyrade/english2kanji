@@ -12,7 +12,7 @@ This project provides tools to convert English meanings into corresponding Kanji
 - **Image Generation:** Queries a trained model to generate images based on Kanji meanings.
 
 ## Ressources
-This project uses the following resources:
+
 - [An XML dictionary file from the KANJIDIC project](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project)
 - `kanjidic2.xml` can be [downloaded here](http://www.edrdg.org/kanjidic/kanjidic2.xml.gz)
 
