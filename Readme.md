@@ -1,4 +1,4 @@
-# English to Kanji
+# English to Kanji diffusion
 
 ## Overview
 This project provides tools to convert English meanings into corresponding Kanji characters, generate their SVG representations, convert these to other image formats, and utilize these images within a machine learning framework for further processing and application.
