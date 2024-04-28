@@ -1,4 +1,4 @@
-# English to Kanji diffusion
+# English to Kanji Diffusion
 
 ## Overview
 This project provides tools to convert English meanings into corresponding Kanji characters, generate their SVG representations, convert these to other image formats, and utilize these images within a machine learning framework for further processing and application.
@@ -11,14 +11,19 @@ This project provides tools to convert English meanings into corresponding Kanji
 - **Model Training:** Utilizes the Hugging Face Diffusers library to train a model on the Google Colab platform.
 - **Image Generation:** Queries a trained model to generate images based on Kanji meanings.
 
-## Ressources
+## Resources
 
 - [An XML dictionary file from the KANJIDIC project](http://www.edrdg.org/wiki/index.php/KANJIDIC_Project)
 - `kanjidic2.xml` can be [downloaded here](http://www.edrdg.org/kanjidic/kanjidic2.xml.gz)
-
 - [An XML file from the Kanji Vector Graphics project](https://github.com/KanjiVG/)
 - [KanjiVG format explanation](https://kanjivg.tagaini.net/svg-format.html)
 - `kanjivg.xml` can be [downloaded here](https://github.com/KanjiVG/kanjivg/releases/)
+
+## Hugging Face Resources
+
+The dataset generated and the model trained using this repository have been uploaded on Hugging Face:
+- **Dataset:** [Kanji English Meaning Dataset on Hugging Face](https://huggingface.co/datasets/sylvainlapeyrade/kanji_english_meaning)
+- **Model:** [Kanji to English Translation Model on Hugging Face](https://huggingface.co/sylvainlapeyrade/kanji2english)
 
 ## Usage
 Follow the steps outlined in each cell to set up the environment, parse XML data, generate and convert images, and finally, train and utilize the model for Kanji image generation.
