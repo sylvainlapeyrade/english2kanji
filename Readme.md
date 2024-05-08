@@ -2,8 +2,10 @@
 
 ## Overview
 This project provides tools to convert English meanings into corresponding Kanji characters, generate their SVG representations, convert these to other image formats, and utilize these images within a machine learning framework for further processing and application.
+<p align="center">
+  <img src="https://huggingface.co/sylvainlapeyrade/kanji2english/resolve/main/generated_kanji_examples.jpg" width="400" title="Generated Kanji examples">
+</p>
 
-<img src="https://huggingface.co/sylvainlapeyrade/kanji2english/resolve/main/generated_kanji_examples.jpg" width="500">
 <i>These Kanji images were generated on only one epoch on Google Colab free version for proof of concepts purpose. A bigger training would result in much better images.</i>
 
 ## Features
